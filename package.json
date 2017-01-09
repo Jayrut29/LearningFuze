@@ -1,0 +1,48 @@
+{
+  "name": "learningfuze",
+  "version": "0.1.0",
+  "description": "frontend for learningfuze",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --progress --inline --hot --history-api-fallback",
+    "production": "webpack -p",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayrut/LearningFuze"
+  },
+  "author": "Matthew Woop <matthew.woop@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayrut/LearningFuze/blob/master/issues"
+  },
+  "homepage": "https://github.com/jayrut/LearningFuze/blob/master/README.md",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "express": "^4.13.4",
+    "material-ui": "^0.15.0",
+    "radium": "^0.17.1",
+    "react": "^15.0.1",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "^15.0.1",
+    "react-fontawesome": "^1.1.0",
+    "react-router": "^2.1.1",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.7.0",
+    "eslint-plugin-react": "^4.3.0",
+    "html-webpack-plugin": "^2.15.0",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
