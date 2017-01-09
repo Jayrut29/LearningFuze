@@ -1,6 +1,6 @@
 # LearningFuze
 
-Single Page web application built with React, Redux, Node.js, Express and MongoDB for reviewing modern web application development tutorials.
+Single Page web application built with React, React Router, Node.js, Express and MongoDB for reviewing modern web application development tutorials.
 _________________________
 ## Quickstart
 
